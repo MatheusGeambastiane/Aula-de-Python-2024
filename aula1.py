@@ -5,7 +5,7 @@ O aluno Matheus teve a primeira nota 2, a segunda nota 3, e a nota final 5
 
 nome = "Matheus"
 n1 = 2
-n2 = 3
+n2 = 32
 soma = n1 + n2
 
 
