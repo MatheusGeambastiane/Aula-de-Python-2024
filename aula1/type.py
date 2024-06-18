@@ -12,4 +12,4 @@ tipo_desconto = type(desconto)
 
 
 print(tipo_nome)
-print(tipo_desconto)
+# print(tipo_desconto)
