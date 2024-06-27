@@ -1,25 +1,12 @@
 
+palavra = input("Digite uma palavra: ")
 
-time = input("Digite seu time: ")
-
-# if time == 'Corinthians':
-#     print("Você é um Timão!")
-# elif time == "Bahia":
-#     print("Você é do Esquadrão")
-# elif time == "Gremio":
-#     print("Você é do Imortal")
-# else:
-#     print("Você não é um Timão!")
+vogais = ['a', 'e', 'i', 'o', 'u']
+contagem_vogal = 0
+for letra in palavra:
+    if letra in vogais:
+        print(f'contém a letra {letra}')
+        contagem_vogal += 1
 
 
-match time:
-    case "Corinthians":
-        print("Você é um Timão!")
-    case "Bahia":
-        print("Você é Esquadrão!")
-    case "Gremio":
-        print("Você é imortal!")
-    case _:
-        print("Quem não é não se mete")
-
-
+print(f'O total de vogais é {contagem_vogal}')
