@@ -56,8 +56,8 @@ E por fim execute o ambiente
 
 Se você estiver utilizando o gitbash como terminal padrão 
 
-
+```
 source ./nomedoambiente/Scripts/activate
-
+```
 
 
